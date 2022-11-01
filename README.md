@@ -1,5 +1,7 @@
 # HTML Tags
 
+## `<!--...-->`
+
 **\<!--** This is a comment, comments are not displayed in the browser **-- >**
 
 * Supported by all browsers
@@ -14,6 +16,8 @@
 
 * You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have alot of code
 
+## \<!Doctype html>
+
 **\<!Doctype html>** All HTML documents must starts with a `<!Doctype>` declaration&#x20;
 
 * Supported by all browsers
@@ -22,6 +26,8 @@
   `<!DocType html>`\
   `<!<Doctype html>`\
   `<!doctype html>`
+
+## \<a>
 
 **\<a>** defines a hyperlink, which is used to link from one page to another
 
@@ -43,11 +49,15 @@ Attributes
 | target         | <p>_blank<br>_parent<br>_self<br>_top</p>                                                                                                              | Specifies where to open the linked document                                                                                                                                                 |
 | type           | media\_type                                                                                                                                            | Specifies the media type of the linked document                                                                                                                                             |
 
+## \<abbr>
+
 **\<abbr>** defines an abbreviation or an acronym
 
 * Supported by all browsers
 * Example: \
   `<abbr title="Cascading Style Sheets">CSS</abbr>`
+
+## \<address>
 
 **\<address>** defines the contact information for the author/owner of a document or article
 
@@ -83,6 +93,7 @@ USA
   &#x20; `display: block;`\
   &#x20; `font-style: italic;`\
   `}`
+* ## \<area>
 
 **\<area>** defines an area inside an image map (an image map is an image with clickable areas)
 
@@ -114,6 +125,8 @@ See Example of AREA here
   `area {`\
   &#x20; `display: none;`\
   `}`
+
+## \<article>
 
 **\<article>** specifies independent, self-contained content&#x20;
 

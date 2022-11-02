@@ -1,6 +1,7 @@
 # Table of contents
 
-* [HTML Tags](README.md)
+* [HTML Basics](README.md)
+* [HTML Tags](<README (1).md>)
 
 ## Reference Sheet
 

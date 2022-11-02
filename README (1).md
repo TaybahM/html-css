@@ -29,7 +29,7 @@
 
 ## \<a>
 
-**\<a>** defines a hyperlink, which is used to link from one page to another
+Defines a hyperlink, which is used to link from one page to another
 
 * Supported by all browsers
 * must have a `href` attribute, or else it's just a placeholder for a hyperlink
@@ -51,7 +51,7 @@ Attributes
 
 ## \<abbr>
 
-**\<abbr>** defines an abbreviation or an acronym
+**D**efines an abbreviation or an acronym
 
 * Supported by all browsers
 * Example: \
@@ -59,7 +59,7 @@ Attributes
 
 ## \<address>
 
-**\<address>** defines the contact information for the author/owner of a document or article
+Defines the contact information for the author/owner of a document or article
 
 {% tabs %}
 {% tab title="Code" %}
@@ -93,9 +93,10 @@ USA
   &#x20; `display: block;`\
   &#x20; `font-style: italic;`\
   `}`
-* ## \<area>
 
-**\<area>** defines an area inside an image map (an image map is an image with clickable areas)
+## \<area>
+
+Defines an area inside an image map (an image map is an image with clickable areas)
 
 * Supported by all browsers
 * The `<area>` element will always be nested inside a `<map>` tag
@@ -128,7 +129,7 @@ See Example of AREA here
 
 ## \<article>
 
-**\<article>** specifies independent, self-contained content&#x20;
+Specifies independent, self-contained content&#x20;
 
 * an article should make sense on its own and it should be possible to distribute it independently from the rest of the site&#x20;
 * The `<article>`element does not render as anything special in a browser. However, you can use CSS to style the `<article>` element&#x20;
@@ -198,3 +199,5 @@ See Example of AREA here
 | Element    | Chrome | Edge | Firefox | Safari | Opera |
 | ---------- | ------ | ---- | ------- | ------ | ----- |
 | \<article> | 6.0    | 9.0  | 4.0     | 5.0    | 11.1  |
+
+##

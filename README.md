@@ -168,3 +168,6 @@ h1 {
 {% hint style="info" %}
 **HEX Colors** are specified with #RRGGBB, where RR (red), GG(green) and BB(blue) hexadecimal integers specify the components of the color. [Read more about Hex Colors](https://opusdesign.us/wordcount/what-are-hex-codes-for-colors/).
 {% endhint %}
+
+#### External Stylesheet
+

@@ -123,7 +123,7 @@ CSS is used to defines styles for you web pages, including designs, layout and v
 
 #### Internal Stylesheet
 
-CSS can be added to a web page as an internal style sheet, external stylesheet or inline the HTML text. An internal stylesheet resides within an HTML document. To create this, we can place our CSS in between the `<style>` tag which is inside the HTML `<head>`tag. An internal stylesheet is best when there isn't much CSS used in a web page. Once the page gets larger and more complex, it requires more CSS. In that case. its best to have a seperate page containing just the CSS information that links straight to the main HTML document, that would then be called the external stylesheet. Below is an example of an internal styelsheet:
+CSS can be added to a web page as an internal style sheet, external stylesheet or inline the HTML text. An internal stylesheet resides within an HTML document. To create this, we can place our CSS in between the `<style>` tag which is inside the HTML `<head>`tag. An internal stylesheet is best when there isn't much CSS used in a web page. Once the page gets larger and more complex, it requires more CSS. In that case, it's best to have a seperate page containing just the CSS information that links straight to the main HTML document, that would then be called the external stylesheet. Below is an example of an internal styelsheet:
 
 ```html
 <!DOCTYPE html>
@@ -171,7 +171,7 @@ h1 {
 
 #### External Stylesheet
 
-An external stylesheet contains CSS in a seperate file with a `.css` extension. This is the most common and useful method of bringing CSS into an HTML document. You can reference an external CSS stylesheet from an HTML `<link>` element:&#x20;
+An external stylesheet contains CSS in a seperate file with a `.css` extension. This is the most common, useful and recommended method of bringing CSS into an HTML document. You can reference an external CSS stylesheet from an HTML `<link>` element:&#x20;
 
 ```html
 <!DOCTYPE html>
@@ -229,6 +229,58 @@ Taybah Mohammad - CodePen
 {% endtabs %}
 
 In this example, the tabs have been titled with the appropriate file name. index.html is the most common name used for the landing page in an HTML webpage. It other words, index.html is used for the homepage.&#x20;
+
+#### Inline CSS
+
+Inline CSS affect a single HTML element at a time. This may look like:&#x20;
+
+```html
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+  </head>
+  <body>
+    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">
+      Hello World!
+    </h1>
+    <p style="color:red;">This is my first CSS example</p>
+  </body>
+</html>
+```
+
+**Avoing CSS in this way**, this is the least efficient way to use CSS in a an HTML page. Seperating code in between the `<style>` tags or in a seperate page make it easier to read code and work through it.&#x20;
+
+### Exercise
+
+Now we will work on a webpage with an [external stylesheet](./#external-stylesheet) Create a folder on your computer and name it whatever you like. Inside the folder, create a text file and paste the following code inside (you can use notepad to do this or any [text editor software](https://www.g2.com/categories/text-editor) you would like):
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiments</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>Create your test HTML here</p>
+  </body>
+</html>
+```
+
+Save the file as `"index.html"`. Navigating to the folder and clicking on the file will open it up in your browser. For now it should just say "Create your test HTML here". The title of the page should say "My CSS expiriments". Remember that the `<title>` tag will display whatever is on the browser's title bar or in the page's tab.
+
+Now we can add our css file and title it `"styles.css"`. In this file, paste the following:&#x20;
+
+```
+p {
+  color: red;
+}
+```
+
+After you've completed these steps, reload the index.html page and the text should now appear red. That is becuase your HTML page is linked to the CSS page, and your code tells the browser to render the text in that color.
 
 
 

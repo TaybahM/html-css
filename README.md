@@ -11,7 +11,7 @@ Majority of the tags have an opening tag and a closing tag to wrap around conten
 ### HTML CSS JS
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Code" %}
 {% code lineNumbers="true" %}
 ```html
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ Majority of the tags have an opening tag and a closing tag to wrap around conten
 * The `<p>` element defines a paragraph
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Output" %}
 ## My First Heading
 
 My first paragraph.
@@ -170,4 +170,65 @@ h1 {
 {% endhint %}
 
 #### External Stylesheet
+
+An external stylesheet contains CSS in a seperate file with a `.css` extension. This is the most common and useful method of bringing CSS into an HTML document. You can reference an external CSS stylesheet from an HTML `<link>` element:&#x20;
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My CSS experiment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+```
+
+In this example there is a link created for a seperate CSS stylesheet that is titled "`styles.css`". "rel" tells HTML that there is a relationship between the HTML document and a stylesheet. The files may look like this:&#x20;
+
+{% tabs %}
+{% tab title="index.html" %}
+```html
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+```
+{% endtab %}
+
+{% tab title="styles.css" %}
+```css
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+```
+{% endtab %}
+
+{% tab title="Output" %}
+{% embed url="https://codepen.io/Taybah/pen/rNKLBLm" %}
+Taybah Mohammad - CodePen
+{% endembed %}
+{% endtab %}
+{% endtabs %}
+
+In this example, the tabs have been titled with the appropriate file name. index.html is the most common name used for the landing page in an HTML webpage. It other words, index.html is used for the homepage.&#x20;
+
+
 

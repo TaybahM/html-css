@@ -105,6 +105,39 @@ In this example the following tags were used:&#x20;
 
 ### Deleting and Inserting
 
+{% tabs %}
+{% tab title="Code" %}
+```
+<!DOCTYPE html>
+<html>
+  
+<body>
+    <h2>Text Formatting 3</h2>
+      
+    <!--Inserting-->
+    <p>My favorite color is <del>blue</del> red.</p>
+    <br>
+    
+    <!--Deleting-->
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <br>
+    
+</body>
+  
+</html>
+```
+{% endtab %}
+
+{% tab title="Output" %}
+### Text Formatting 3
+
+My favorite color is ~~blue~~ red.\
+My favorite color is ~~blue~~ red.
+{% endtab %}
+{% endtabs %}
+
+GitBooks does not render underlined text, in the third line in the "output" tabs, the text "red" should be underlined.
+
 #### Simple Tags
 
 |    Tag    |    Defenition    |

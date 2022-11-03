@@ -250,7 +250,7 @@ Inline CSS affect a single HTML element at a time. This may look like:&#x20;
 </html>
 ```
 
-**Avoing CSS in this way**, this is the least efficient way to use CSS in a an HTML page. Seperating code in between the `<style>` tags or in a seperate page make it easier to read code and work through it.&#x20;
+**Avoid using CSS in this way**, this is the least efficient way to use CSS in a an HTML page. Seperating code in between the `<style>` tags or in a seperate page make it easier to read code and work through it.&#x20;
 
 ### Exercise
 
@@ -281,6 +281,4 @@ p {
 ```
 
 After you've completed these steps, reload the index.html page and the text should now appear red. That is becuase your HTML page is linked to the CSS page, and your code tells the browser to render the text in that color.
-
-
 

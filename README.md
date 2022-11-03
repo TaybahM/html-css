@@ -33,7 +33,7 @@ Majority of the tags have an opening tag and a closing tag to wrap around conten
 
 * The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document
 * The `<html>` element is the root element of an HTML page and contains all the other HTML elements
-* The `<head>` element contains meta information about the HTML page. The meta is the metadata about  the document and usually contains the title or style of the page. This information is not displayed on the web page
+* The `<head>` element contains meta information about the HTML page. The meta is the metadata about  the document and usually contains the title or style of the page. It can also be a place where HTML can link to a CSS style sheet for design, you will see what this is in a moment. This information is not displayed on the web page
 * The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
 * The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 * The `<h1>` element defines a large heading
@@ -117,4 +117,54 @@ $('button').on('click', function() {
 Ryan Young - CodePen
 {% endembed %}
 
-#### BREAKING DOWN THE CSS
+### CSS Breakdown
+
+CSS is used to defines styles for you web pages, including designs, layout and variations in display for different devices and screen sizes. HTML itself was never created to contain tags for website formatting. It was simply created to display contents of a web page for everyone to see. Once designers began attempting to include tags like `<font>` to format the font into HTML it became a coding nightmare for web developers. Large websites where fonts and color information were added to every single page began causing issues and creating long, expensive and unnecessary design projects.&#x20;
+
+#### Internal Stylesheet
+
+CSS can be added to a web page as an internal style sheet, external stylesheet or inline the HTML text. An internal stylesheet resides within an HTML document. To create this, we can place our CSS in between the `<style>` tag which is inside the HTML `<head>`tag. An internal stylesheet is best when there isn't much CSS used in a web page. Once the page gets larger and more complex, it requires more CSS. In that case. its best to have a seperate page containing just the CSS information that links straight to the main HTML document, that would then be called the external stylesheet. Below is an example of an internal styelsheet:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My CSS experiment</title>
+    <style>
+      h1 {
+        color: blue;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+```
+
+In this example, we can see the CSS begin right under the `<style>` tag and end as soon as that tag ends. In it the `<h1>` and `<p>` tags are being formatted. Let's break down each part of the `h1` selector:&#x20;
+
+```css
+h1 {
+        color: blue;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+```
+
+* `h1` This is the selector, it points to the HTML element you want to style
+* `{}` A declaration begins at the start of a bracket and ends at the end of it
+* `color:` This is called the property and tells HTML the color of `h1`
+* `blue;` This is the value and tells HTML that the color of `h1` is blue
+* `background-color: yellow;` This portion tells HTML that the background of the document will be yellow. In place of the word yellow, you can also put hex codes to specify the color you would like
+
+{% hint style="info" %}
+**HEX Colors** are specified with #RRGGBB, where RR (red), GG(green) and BB(blue) hexadecimal integers specify the components of the color. [Read more about Hex Colors](https://opusdesign.us/wordcount/what-are-hex-codes-for-colors/).
+{% endhint %}

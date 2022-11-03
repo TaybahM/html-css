@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Basics](basics.md)
 * [Text Formatting](text-formatting.md)
-* [HTML Tags](README.md)
+* [HTML Tags](<README (1).md>)
 
 ## Reference Sheet
 

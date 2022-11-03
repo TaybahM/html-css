@@ -254,7 +254,7 @@ Inline CSS affect a single HTML element at a time. This may look like:&#x20;
 
 ### Exercise
 
-Now we will work on a webpage with an [external stylesheet](./#external-stylesheet) Create a folder on your computer and name it whatever you like. Inside the folder, create a text file and paste the following code inside (you can use notepad to do this or any [text editor software](https://www.g2.com/categories/text-editor) you would like):
+Now we will work on a webpage with an [external stylesheet](./#external-stylesheet). Create a folder on your computer and name it whatever you like. Inside the folder, create a text file and paste the following code inside (you can use notepad to do this or any [text edit](https://www.g2.com/categories/text-editor)or you would like):
 
 ```
 <!DOCTYPE html>

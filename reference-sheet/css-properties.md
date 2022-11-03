@@ -80,23 +80,24 @@ description: CSS Properties Reference
 
 ## C
 
-| caption-side      |                                            |
-| ----------------- | ------------------------------------------ |
-| caret-color       |                                            |
-| @charset          |                                            |
-| clear             |                                            |
-| slip              |                                            |
-| color             |                                            |
-| column-count      |                                            |
-| column-fill       |                                            |
-| column-gap        |                                            |
-| column-rule       |                                            |
-| column-rule-color |                                            |
-| column-rule-style |                                            |
-| column-rule-width |                                            |
-| column-span       |                                            |
-| columns           |                                            |
-| content           |                                            |
-| counter-increment |                                            |
-| counter-reset     | Creates or resets one or more CSS counters |
-| cursor            |                                            |
+| caption-side      | Specifies the placement of a table caption                                                      |
+| ----------------- | ----------------------------------------------------------------------------------------------- |
+| caret-color       | Specifies the color of the cursor (caret) in inputs, textareas, or any element that is editable |
+| @charset          | Specifies the character encoding used in the style sheet                                        |
+| clear             | Specifies what should happen with the element that is next to a floating element                |
+| clip              | Clips an absolutely positioned element                                                          |
+| color             | Sets the color of textClips an absolutely positioned element                                    |
+| column-count      | Specifies the number of columns an element should be divided into                               |
+| column-fill       | Specifies how to fill columns, balanced or not                                                  |
+| column-gap        | Specifies the gap between the columns                                                           |
+| column-rule       | A shorthand property for all the _column-rule-\*_ properties                                    |
+| column-rule-color | Specifies the color of the rule between columns                                                 |
+| column-rule-style | Specifies the style of the rule between columns                                                 |
+| column-rule-width | Specifies the width of the rule between columns                                                 |
+| column-span       | Specifies how many columns an element should span across                                        |
+| column-width      | Specifies the column width                                                                      |
+| columns           | A shorthand property for _column-width_ and _column-count_                                      |
+| content           | Used with the :before and :after pseudo-elements, to insert generated content                   |
+| counter-increment | Increases or decreases the value of one or more CSS counters                                    |
+| counter-reset     | Creates or resets one or more CSS counters                                                      |
+| cursor            | Specifies the mouse cursor to be displayed when pointing over an element                        |

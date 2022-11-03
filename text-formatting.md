@@ -50,6 +50,7 @@ In this example the following tags were used:&#x20;
 * `<small>`: Defines smaller text, can be used for copyright text or side-comments - (Gitbooks cannot run this tag without extra external stylesheets, which is why the browser has not rendered it correctly. Copy and pasting the HTML from the "code" tab into [CodePen](https://codepen.io/Taybah/pen/LYrNjyL) will do the trick)&#x20;
 * `<mark>`: Defines text that should be marked or highlighted. Generally the browser will render the contents within the `<mark>` tag as text with a yellow background
 * `<i>`: Used to italicise text. The tag `<em>`can also be used with the same effect.&#x20;
+* `<br>`: some elements do not have end tags becuase they do not contain content. This tag for exampl, is used to tell the browser that there is a line break in between two seperate tags. Without this tag, the content would all be in a single line.&#x20;
 
 {% hint style="info" %}
 **CodePen**: "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.", This is a great place for beginners to test their code and play around with tags and elements.
